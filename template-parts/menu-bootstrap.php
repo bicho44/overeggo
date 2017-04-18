@@ -22,10 +22,9 @@
 			</button>
 			<a href="<?php echo esc_url(home_url('/')); ?>" class="navbar-brand"
 			   title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" rel="home"><img
-					src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/enbiga-logo-white.png"
-					alt="<?php esc_attr(bloginfo('name')); ?>"
-					height="60px"
-					></a>
+					src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logo-overego-white-60px.png"
+					alt="<?php esc_attr(bloginfo('name')); ?>">
+			</a>
 		</div>
 
 		<!-- Collect the nav links, forms, and other content for toggling -->

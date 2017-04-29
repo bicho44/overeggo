@@ -22,7 +22,7 @@
 			</button>
 			<a href="<?php echo esc_url(home_url('/')); ?>" class="navbar-brand"
 			   title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" rel="home"><img
-					src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logo-overego-verde-60px.png"
+					src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logo-overego-verde-150px.png"
 					alt="<?php esc_attr(bloginfo('name')); ?>">
 			</a>
 		</div>

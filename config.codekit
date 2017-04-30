@@ -110,6 +110,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/assets\/css\/xvariables.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/css\/xvariables.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/assets\/images\/favicon.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -139,6 +148,17 @@
 		"initialSize": 0,
 		"inputAbbreviatedPath": "\/assets\/images\/logo-overego-verde-150px.png",
 		"outputAbbreviatedPath": "\/assets\/images\/logo-overego-verde-150px.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/logo-overego-verde-60px.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5944,
+		"inputAbbreviatedPath": "\/assets\/images\/logo-overego-verde-60px.png",
+		"outputAbbreviatedPath": "\/assets\/images\/logo-overego-verde-60px.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

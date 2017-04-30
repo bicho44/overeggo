@@ -1299,14 +1299,14 @@ fieldset[disabled] a.more-link {
   margin-bottom: 16px;
 }
 .news-front-page .newstitle {
-  background-color: #808080;
+  background-color: #9a9a9a;
   color: #1288A7;
   padding: 1rem;
   text-align: center;
   text-transform: uppercase;
 }
 .news-front-page .newstitle h2 {
-  color: #1288A7;
+  color: #00586D;
 }
 .membership-front-page {
   margin-bottom: 16px;

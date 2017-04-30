@@ -9,7 +9,9 @@
     </div>
     <div class="membership-block">
         <div class="container">
-            [aca van las páginas de info sobre membership]
+            <?php 
+	            include( locate_template( 'template-parts/membership/destacados.php' ) );
+            ?>
         </div>
     </div>
 </section>

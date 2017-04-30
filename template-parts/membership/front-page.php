@@ -2,7 +2,7 @@
     <div class="membership-title">
         <div class="container">
             <h2>
-                <small><?php _e('All you need to know about','imgd'); ?></small>
+                <small><?php _e('All you need to know about','imgd'); ?></small><br>
                 <?php _e('Membership','imgd'); ?>
             </h2>
         </div>

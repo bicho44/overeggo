@@ -10317,6 +10317,12 @@ fieldset[disabled] a.more-link {
 .entry-header .entry-meta .byline {
   font-weight: bold;
 }
+.contactus {
+  padding: 5px;
+  font-size: 12px;
+  text-align: center;
+  background-color: #333;
+}
 .wrapfooter {
   background-color: #1a1a1a;
   padding: 20px 0;

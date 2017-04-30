@@ -1,9 +1,9 @@
 <?php
 /*
-Title: Vision Options
+Title: Theme Options
 Setting: opciones_imgd
-Tab: Vision Home Page
-Flow: Opciones Vision
+Tab: Theme Home Page
+Flow: Opciones Theme
 
 */
 
@@ -168,46 +168,6 @@ piklist (
     array(
         'type' => 'radio',
         'scope' => 'post_meta',
-        'field' => 'imgd_desta_news',
-        'label' => __('News Destacadas en la Home Page', 'imgd'),
-        'value' => 0,
-        'attributes' => array(
-            'class' => 'radio'
-        ),
-        'choices' => array(
-            0 => __('No', 'imgd'),
-            1 => __('Si', 'imgd')
-        ),
-        'position' => 'wrap'
-    )
-);
-
-piklist(
-    'field', 
-    array(
-        'type' => 'text'
-        ,'field' => 'imgd_desta_news_cant'
-        ,'description' => __('Cuantas Noticias en el Home', 'imgd')
-        ,'value' => '4'
-        ,'label' => __('Cantidad', 'imgd')
-        , 'conditions' => array(
-                    array(
-                        'field' => 'imgd_desta_news'
-                        , 'value' => 1
-                    )
-                )
-        ,'attributes' => array(
-                'class' => 'small-text'
-        )       
-    )
-);
-
-
-piklist (
-    'field',
-    array(
-        'type' => 'radio',
-        'scope' => 'post_meta',
         'field' => 'imgd_destaca',
         'label' => __('Mostar Línea de Destacados en la Home Page', 'imgd'),
         'value' => 0,
@@ -245,24 +205,5 @@ piklist(
             4 => 4,
             6 => 6
         )
-    )
-);
-
-piklist (
-    'field',
-    array(
-        'type' => 'radio',
-        'scope' => 'post_meta',
-        'field' => 'imgd_columnas',
-        'label' => __('Mostar Línea de Columnas', 'imgd'),
-        'value' => 0,
-        'attributes' => array(
-            'class' => 'radio'
-        ),
-        'choices' => array(
-            0 => __('No', 'imgd'),
-            1 => __('Si', 'imgd')
-        ),
-        'position' => 'wrap'
     )
 );

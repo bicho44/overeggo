@@ -10026,8 +10026,8 @@ button.close {
 animation:         KEYFRAME-NAME 5s infinite;
 }*/
 .site-header {
-  padding-top: 3px;
-  padding-bottom: 3px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   right: 0;
   left: 0;
   z-index: 500;
@@ -10043,6 +10043,10 @@ animation:         KEYFRAME-NAME 5s infinite;
 }
 .navbar-fixed-top {
   background-color: rgba(255, 255, 255, 0.95);
+}
+.navbar {
+  margin-bottom: 0;
+  border: none;
 }
 .imgd-destacados {
   background-color: #eb5830;

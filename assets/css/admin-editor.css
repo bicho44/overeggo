@@ -1451,19 +1451,19 @@ fieldset[disabled] a.more-link {
 .wrapfooter {
   background-color: #1a1a1a;
   padding: 20px 0;
-  border-top: 2px solid #777777;
-  color: #fff;
+  border-top: 2px solid #00586D;
+  color: #808080;
   margin-top: 20px;
 }
 .wrapfooter h2 {
-  color: #808080;
+  color: #000000;
 }
 .wrapfooter .site-footer ul {
   padding-left: 0;
   list-style: none;
 }
 .wrapfooter .site-footer a {
-  color: #fff;
+  color: #808080;
 }
 .wrapfooter .site-footer .site-info {
   text-align: center;

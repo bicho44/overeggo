@@ -10,12 +10,15 @@
  */
 $class="align-right";
 ?>
-	<div class="wrapfooter">
-		<div class="contactus">
+
+	<div class="contactus">
 			<div class="container">
 				Acá va el contacto
 			</div>
 		</div>
+
+	<div class="wrapfooter">
+		
 	
 		<footer id="colophon" class="site-footer" role="contentinfo">
 			<div class="container">

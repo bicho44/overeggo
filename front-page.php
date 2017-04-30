@@ -20,6 +20,10 @@ $slider_size = $opciones_imgd['imgd_slider_size'];
 	<?php include( locate_template( 'template-parts/carrousel.php' ) );?>
 <?php } ?>
 
+<?php 
+	include( locate_template( 'template-parts/news/front-page.php' ) );
+?>
+
 <?php
  while ( have_posts() ) : the_post();
  	the_content();

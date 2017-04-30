@@ -1205,19 +1205,9 @@ animation:         KEYFRAME-NAME 5s infinite;
   margin-bottom: 0;
   border: none;
 }
-.imgd-destacados {
-  background-color: #eb5830;
-  padding: 16px 0;
-  color: white;
-}
-.imgd-destacados a {
-  color: white;
-}
-.imgd-destacados h1,
-.imgd-destacados h2,
-.imgd-destacados h3,
-.imgd-destacados h4 {
-  color: white;
+#video {
+  border-bottom: 4px solid #1288A7;
+  margin-bottom: 16px;
 }
 #carrousel-bootstrap {
   margin-bottom: 10px;
@@ -1237,49 +1227,6 @@ animation:         KEYFRAME-NAME 5s infinite;
     right: 0;
     background-color: rgba(0, 0, 0, 0.5);
   }
-}
-#video {
-  border-bottom: 3px solid #1288A7;
-  margin-bottom: 16px;
-}
-.newsfeature article {
-  position: relative;
-}
-@media screen and (min-width: 768px) {
-  .newsfeature article header.destacados-caption {
-    max-height: 90px;
-  }
-  .newsfeature article header.destacados-caption .destacados-caption-texto {
-    display: block;
-  }
-}
-.newsfeature article header.destacados-caption {
-  transition: all .5s;
-  position: absolute;
-  bottom: 0;
-  background: #e57200;
-  padding: 10px;
-  min-width: 100%;
-  max-height: 45px;
-  overflow: hidden;
-  font-size: 12px;
-  color: white;
-}
-.newsfeature article header.destacados-caption a {
-  color: white;
-}
-.newsfeature article header.destacados-caption h3 {
-  font-size: 20px;
-}
-.newsfeature article header.destacados-caption .destacados-caption-texto {
-  display: none;
-  padding-bottom: 10px;
-}
-.newsfeature article header.destacados-caption:hover {
-  max-height: 90px;
-}
-.newsfeature article header.destacados-caption:hover .destacados-caption-texto {
-  display: block;
 }
 .wp-post-image {
   display: block;
@@ -1348,6 +1295,11 @@ fieldset[disabled] a.more-link {
 .page-header .page-title {
   margin-top: 0;
 }
+.newstitle {
+  background-color: #1288A7;
+  color: #fff;
+  padding: 20px;
+}
 /** Comentarios */
 .comment-form-author,
 .comment-form-email,
@@ -1370,94 +1322,21 @@ fieldset[disabled] a.more-link {
 .widget-title {
   font-size: 18px;
 }
-.calendar-table {
-  width: 100%;
-  max-width: 100%;
-  margin-bottom: 20px;
-}
-.calendar-table > thead > tr > th,
-.calendar-table > tbody > tr > th,
-.calendar-table > tfoot > tr > th,
-.calendar-table > thead > tr > td,
-.calendar-table > tbody > tr > td,
-.calendar-table > tfoot > tr > td {
-  padding: 8px;
-  line-height: 1.42857143;
-  vertical-align: top;
-  border-top: 1px solid #ddd;
-}
-.calendar-table > thead > tr > th {
-  vertical-align: bottom;
-  border-bottom: 2px solid #ddd;
-}
-.calendar-table > caption + thead > tr:first-child > th,
-.calendar-table > colgroup + thead > tr:first-child > th,
-.calendar-table > thead:first-child > tr:first-child > th,
-.calendar-table > caption + thead > tr:first-child > td,
-.calendar-table > colgroup + thead > tr:first-child > td,
-.calendar-table > thead:first-child > tr:first-child > td {
-  border-top: 0;
-}
-.calendar-table > tbody + tbody {
-  border-top: 2px solid #ddd;
-}
-.calendar-table .table {
-  background-color: #fff;
-}
 .thumbnail {
   border: none;
   background-color: transparent;
   border-radius: 0;
   padding: 0;
 }
-.elementor img.img-circle,
-#eventos-destacados .elementor img {
-  border-radius: 50%;
-}
-.tres-columnas {
-  padding-top: 16px;
-  background-color: #eeeeee;
-}
-.ultimas {
-  border-bottom: 1px solid #777777;
-  min-height: 70px;
-  /*h4 {
-        margin-bottom: 3px;
-    }
-    p {
-        margin-bottom: 5px;
-    }*/
-}
-.ultimas:last-child {
-  border-bottom: none;
-}
-.ultimas:before,
-.ultimas:after {
-  content: " ";
-  display: table;
-}
-.ultimas:after {
-  clear: both;
-}
-.ultimas img {
-  float: left;
-  margin-right: 10px;
-}
-.ultimas .entry-content {
-  padding-bottom: .5em;
-}
-.entry-header .entry-meta {
-  text-align: right;
-}
-.entry-header .entry-meta .byline {
-  font-weight: bold;
-}
 .contactus {
   padding: 1rem;
   text-align: center;
   background-color: #333;
   color: #808080;
-  border: 1px solid #4d4d4d;
+  /* Border */
+  border-top: 1px solid #4d4d4d;
+  border-left: 1px solid #4d4d4d;
+  border-right: 1px solid #4d4d4d;
 }
 .contactus a {
   color: #1288A7;

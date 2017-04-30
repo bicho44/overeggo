@@ -30,12 +30,10 @@ animation:         KEYFRAME-NAME 5s infinite;
     border:none;
 }
 
-.imgd-destacados {
-    background-color: lighten(@enbiga-naranja-oscuro, 20);
-    padding: 16px 0;
-    color:white;
-    a{color:white;}
-    h1,h2,h3,h4 {color:white;}
+// --------- Video principal
+#video{
+    border-bottom: 4px solid @overego-verde-base;
+    margin-bottom: 16px;
 }
 
 // --------- CARROUSEL 
@@ -56,69 +54,12 @@ animation:         KEYFRAME-NAME 5s infinite;
     }
 }
 
-// --------- Video principal
-#video{
-    border-bottom: 3px solid @overego-verde-base;
-    margin-bottom: 16px;
-}
-
-// --------- Noticias Destacadas
-.newsfeature {
-
-    article {
-        position: relative;
-
-        @media screen and (min-width: @screen-sm-min) {
-            header.destacados-caption {
-                max-height: 90px;
-                .destacados-caption-texto {
-                    display: block;
-                }
-            }
-        }
-
-        header.destacados-caption {
-            transition: all .5s;
-            position: absolute;
-            bottom: 0;
-            background: lighten(spin(@vision-azul-base, 180), 15);
-            padding: 10px;
-            min-width: 100%;
-            max-height: 45px;
-            overflow: hidden;
-            font-size: 12px;
-            color: white;
-            a {
-                color: white;
-            }
-            h3 {
-                font-size: 20px;
-            }
-
-            .destacados-caption-texto {
-                display: none;
-                padding-bottom: 10px;
-            }
-            // Scale up controls for tablets and up
-            
-            
-            &:hover {
-                max-height: 90px;
-                .destacados-caption-texto {
-                    display: block;
-                }
-            }
-        }
-    }
-}
-
 .wp-post-image {
     .img-responsive();
     margin-bottom: 20px;
 }
 .more-link{
     .btn;
-
 }
 
 .page-header {
@@ -128,6 +69,13 @@ animation:         KEYFRAME-NAME 5s infinite;
     }
 }
 
+//------- News Section
+.newstitle{
+    background-color: @overego-verde-base;
+    color: #fff;
+    padding: 20px;
+
+}
 
 /** Comentarios */
 
@@ -136,8 +84,6 @@ animation:         KEYFRAME-NAME 5s infinite;
 .comment-form-url {
     width: 50%;
 }
-
-
 
 .image-thumbnail {
     margin-bottom: (@line-height-computed / 2);
@@ -163,60 +109,13 @@ animation:         KEYFRAME-NAME 5s infinite;
     font-size: 18px;
 }
 
-.calendar-table {
-    .table();
-}
-
 .thumbnail {
     border: none;
     background-color: transparent;
     border-radius: 0;
     padding: 0;
 }
-.elementor img.img-circle,
-#eventos-destacados .elementor img{
-    border-radius: 50%;
-    
-}
-// Ultimas novedades
-.tres-columnas {
-    padding-top: 16px;
-    background-color: @gray-lighter;
-}
 
-.ultimas {
-    border-bottom: 1px solid @gray-light;
-    min-height: 70px;
-    //margin: 6px 0;
-    &:last-child {
-        border-bottom: none;
-    }
-    .clearfix();
-    img {
-        float: left;
-        margin-right: 10px;
-    }
-    /*h4 {
-        margin-bottom: 3px;
-    }
-    p {
-        margin-bottom: 5px;
-    }*/
-    .entry-content {
-        padding-bottom: .5em;
-    }
-    
-}
-
-.entry-header{
-    .entry-meta{
-        text-align: right;
-        .byline{
-            font-weight: bold;
-        }
-    }
-
-}
 
 //------------- FOOTER ----------//
 .contactus{
@@ -224,10 +123,12 @@ animation:         KEYFRAME-NAME 5s infinite;
     text-align: center;
     background-color: @overego-gray-medium;
     color: @overego-gray-light;
-    border: 1px solid lighten(@overego-gray-medium, 10%); 
+    /* Border */
+    border-top: 1px solid lighten(@overego-gray-medium, 10%);
+    border-left: 1px solid lighten(@overego-gray-medium, 10%); 
+    border-right: 1px solid lighten(@overego-gray-medium, 10%); 
     a{
         color: @overego-verde-base;
-
     }
 }
 

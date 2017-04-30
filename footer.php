@@ -13,7 +13,8 @@ $class="align-right";
 ?>
 <div class="container">
 	<div class="contactus">
-		Acá va el contacto
+		Have any question?<br>
+		<a href="/contact/">CONTACT US</a>
 	</div>
 </div>
 	<div class="wrapfooter">

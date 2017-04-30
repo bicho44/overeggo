@@ -1,4 +1,4 @@
-<div class="news-front-page">
+<section class="news-front-page">
     <div class="newstitle">
         <div class="container">
             <h2>
@@ -11,4 +11,4 @@
             
         </div>
     </div>
-</div>
+</section>

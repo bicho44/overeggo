@@ -1295,6 +1295,9 @@ fieldset[disabled] a.more-link {
 .page-header .page-title {
   margin-top: 0;
 }
+.news-front-page {
+  margin-bottom: 16px;
+}
 .news-front-page .newstitle {
   background-color: #808080;
   color: #1288A7;
@@ -1305,6 +1308,9 @@ fieldset[disabled] a.more-link {
 .news-front-page .newstitle h2 {
   color: #1288A7;
 }
+.membership-front-page {
+  margin-bottom: 16px;
+}
 .membership-front-page .membership-title {
   background-color: #1288A7;
   color: #fff;
@@ -1313,6 +1319,9 @@ fieldset[disabled] a.more-link {
   text-transform: uppercase;
 }
 .membership-front-page .membership-title h2 {
+  color: #fff;
+}
+.membership-front-page .membership-title h2 small {
   color: #fff;
 }
 /** Comentarios */

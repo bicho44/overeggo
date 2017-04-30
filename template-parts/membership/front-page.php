@@ -1,4 +1,4 @@
-<div class="membership-front-page">
+<section class="membership-front-page">
     <div class="membership-title">
         <div class="container">
             <h2>
@@ -12,4 +12,4 @@
             [aca van las páginas de info sobre membership]
         </div>
     </div>
-</div>
+</section>

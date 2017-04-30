@@ -21,7 +21,7 @@ add_image_size('show-cropped', 340, 340, true);
 add_image_size('show-archive', 750, 200, true);
 
 add_image_size('news-featured', 750, 420, true);
-add_image_size('news-archive', 360, 200, true);
+add_image_size('news-archive', 350, 350, true);
 
 /*add_image_size('tablet-v', 780, 400, true);
 add_image_size('phones', 480, 250, true);

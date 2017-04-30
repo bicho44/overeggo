@@ -20,6 +20,8 @@
     <?php } ?>
 
     <header class="destacados-caption">
+       <div class="entry-date"><?php echo "date";?></div>
+
         <h3>
             <a href="<?php the_permalink(); ?>" rel="bookmark">
                 <?php shortentext(get_the_title(), 50);?>

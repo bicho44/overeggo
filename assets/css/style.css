@@ -10318,18 +10318,21 @@ fieldset[disabled] a.more-link {
   font-weight: bold;
 }
 .contactus {
-  padding: 5px;
-  font-size: 12px;
+  padding: 1rem;
   text-align: center;
   background-color: #333;
   color: #808080;
+  border: 1px solid #333;
+}
+.contactus a {
+  color: #1288A7;
 }
 .wrapfooter {
   background-color: #1a1a1a;
   padding: 20px 0;
   border-top: 2px solid #00586D;
   color: #808080;
-  margin-top: 20px;
+  margin-top: 0;
 }
 .wrapfooter h2 {
   color: #000000;

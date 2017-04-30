@@ -10026,10 +10026,12 @@ button.close {
 animation:         KEYFRAME-NAME 5s infinite;
 }*/
 .site-header {
-  top: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   right: 0;
   left: 0;
   z-index: 500;
+  background-color: #1a1a1a;
 }
 .navbar-default,
 .navbar-fixed-top {

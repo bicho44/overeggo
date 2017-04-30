@@ -16,11 +16,6 @@ $post_class = 'col-md-'.$cant_cols;
 $loop = new WP_Query($args);
 
 if ($loop->have_posts()) {?>
-  <section class="imgd-destacados">
-
-
-  <div class="container">
-       <h2> <?php _e('Eventos Destacados', 'imgd'); ?></h2>
     <div class="row">
     <?php
     $x = 0;
@@ -29,19 +24,14 @@ if ($loop->have_posts()) {?>
     while ($loop->have_posts()) : $loop->the_post();
     $destacadosID[] = get_the_ID();
     ?>
-
     <article id="post-<?php the_ID(); ?>" <?php post_class($post_class.' col-sm-4'); ?>>
-      
       <?php
 	      include( locate_template( 'template-parts/news/new.php' ) );
-      $x++;
+        $x++;
       ?>
-
     </article> <!-- End article <?php the_ID(); ?> -->
   <?php endwhile; ?>
   </div> <!-- End Row-->
-  </div><!-- End Container-->
-</section>
 <?php } ?>
 <?php wp_reset_query();
 //var_dump($destacadosID);

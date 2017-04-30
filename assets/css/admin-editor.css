@@ -1305,6 +1305,16 @@ fieldset[disabled] a.more-link {
 .news-front-page .newstitle h2 {
   color: #1288A7;
 }
+.membership-title {
+  background-color: #808080;
+  color: #1288A7;
+  padding: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+.membership-title h2 {
+  color: #1288A7;
+}
 /** Comentarios */
 .comment-form-author,
 .comment-form-email,

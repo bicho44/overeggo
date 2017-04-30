@@ -1304,6 +1304,7 @@ fieldset[disabled] a.more-link {
   padding: 1rem;
   text-align: center;
   text-transform: uppercase;
+  margin-bottom: 32px;
 }
 .news-front-page .newstitle h2 {
   color: #00586D;
@@ -1317,7 +1318,7 @@ fieldset[disabled] a.more-link {
   padding: .4rem;
   text-align: center;
   text-transform: uppercase;
-  margin-bottom: 40px;
+  margin-bottom: 32px;
 }
 .membership-front-page .membership-title h2 {
   color: #fff;

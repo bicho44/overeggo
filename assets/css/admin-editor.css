@@ -1238,6 +1238,10 @@ animation:         KEYFRAME-NAME 5s infinite;
     background-color: rgba(0, 0, 0, 0.5);
   }
 }
+#video {
+  border-bottom: 3px solid #1288A7;
+  margin-bottom: 16px;
+}
 .newsfeature article {
   position: relative;
 }

@@ -2,7 +2,7 @@
 /* Noticias Destacadas */
 
 // Acá seleciono las Páginas que voy a mostrar como destacados en la Home
-$args = array('post_type' => array('post', 'page','imgd_programa', 'portfolio_item', 'imgd_productos', 'imgd_casino_shows'),
+$args = array('post_type' => array('post'),
 'meta_key' => 'imgd_home',
 'meta_value' => '1',
 'post_status' => 'publish',
@@ -30,10 +30,10 @@ if ($loop->have_posts()) {?>
     $destacadosID[] = get_the_ID();
     ?>
 
-    <article id="post-<?php the_ID(); ?>" <?php post_class($post_class.' col-sm-6'); ?>>
+    <article id="post-<?php the_ID(); ?>" <?php post_class($post_class.' col-sm-4'); ?>>
       
       <?php
-      get_template_part('template-parts/content-front/ficha', 'destacada');
+	      include( locate_template( 'template-parts/news/new.php' ) );
       $x++;
       ?>
 

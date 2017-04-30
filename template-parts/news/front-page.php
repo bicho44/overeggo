@@ -6,7 +6,9 @@
     </div>
     <div class="news-block">
         <div class="container">
-            
+            <?php 
+	            include( locate_template( 'template-parts/news/destacados.php' ) );
+            ?>
         </div>
     </div>
 </section>

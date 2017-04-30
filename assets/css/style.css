@@ -10160,6 +10160,9 @@ fieldset[disabled] a.more-link {
   color: #fff;
   padding: 20px;
 }
+.newstitle h2 {
+  color: #fff;
+}
 /** Comentarios */
 .comment-form-author,
 .comment-form-email,

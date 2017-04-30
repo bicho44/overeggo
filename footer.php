@@ -11,8 +11,8 @@
 $class="align-right";
 ?>
 
-	<div class="contactus">
-			<div class="container">
+	<div class="containe">
+			<div class="contactus">
 				Acá va el contacto
 			</div>
 		</div>

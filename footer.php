@@ -12,7 +12,7 @@ $class="align-right";
 ?>
 	<div class="wrapfooter">
 		<div class="container contactus">
-
+			Acá va el contacto
 		</div>
 		<footer id="colophon" class="site-footer" role="contentinfo">
 			<div class="container">

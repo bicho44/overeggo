@@ -1295,13 +1295,15 @@ fieldset[disabled] a.more-link {
 .page-header .page-title {
   margin-top: 0;
 }
-.newstitle {
-  background-color: #1288A7;
-  color: #fff;
-  padding: 20px;
+.news-front-page .newstitle {
+  background-color: #808080;
+  color: #1288A7;
+  padding: 1rem;
+  text-align: center;
+  text-transform: uppercase;
 }
-.newstitle h2 {
-  color: #fff;
+.news-front-page .newstitle h2 {
+  color: #1288A7;
 }
 /** Comentarios */
 .comment-form-author,

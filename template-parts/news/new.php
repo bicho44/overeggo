@@ -1,10 +1,10 @@
 <?php
 /**
- * Template part for displaying posts.
+ * Template part for displaying news.
  *
  * @link https://codex.wordpress.org/Template_Hierarchy
  *
- * @package IMGD porcitions
+ * @package IMGD portions
  */
 
 ?>

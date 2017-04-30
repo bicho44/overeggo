@@ -108,35 +108,6 @@ add_action( 'after_setup_theme', 'turismointer_content_width', 0 );
  * @link https://developer.wordpress.org/themes/functionality/sidebars/#registering-a-sidebar
  */
 function turismointer_widgets_init() {
-	register_sidebar( array(
-		'name'          => esc_html__( 'Front Page Sidebar', 'imgd' ),
-		'id'            => 'front-page-sidebar',
-		'description'   => esc_html__( 'Area para un Aviso Publicitario o un Banner central', 'imgd' ),
-		'before_widget' => '<section id="%1$s" class="widget %2$s">',
-		'after_widget'  => '</section>',
-		'before_title'  => '<h2 class="widget-title">',
-		'after_title'   => '</h2>',
-	) );
-
-	register_sidebar( array(
-		'name'          => esc_html__( 'Front Page Sidebar Linea columnas', 'imgd' ),
-		'id'            => 'front-page-sidebar-1',
-		'description'   => esc_html__( 'Area de Widgets para la línea de 3 columnas', 'imgd' ),
-		'before_widget' => '<section id="%1$s" class="widget %2$s">',
-		'after_widget'  => '</section>',
-		'before_title'  => '<h2 class="widget-title">',
-		'after_title'   => '</h2>',
-	) );
-
-	register_sidebar( array(
-		'name'          => esc_html__( 'Front Page Sidebar 2 Linea columnas', 'imgd' ),
-		'id'            => 'front-page-sidebar-2',
-		'description'   => esc_html__( 'Area de Widgets para la línea de 3 columnas', 'imgd' ),
-		'before_widget' => '<section id="%1$s" class="widget %2$s">',
-		'after_widget'  => '</section>',
-		'before_title'  => '<h2 class="widget-title">',
-		'after_title'   => '</h2>',
-	) );
 
 	register_sidebar( array(
 		'name'          => esc_html__( 'Sidebar Paginas', 'imgd' ),
@@ -171,7 +142,16 @@ function turismointer_widgets_init() {
 	register_sidebar( array(
 		'name'          => esc_html__( 'Footer SideBar 3', 'imgd' ),
 		'id'            => 'footer-3-sidebar',
-		'description'   => esc_html__( 'Segundo espacio de Footer.', 'imgd' ),
+		'description'   => esc_html__( 'Tercer espacio de Footer.', 'imgd' ),
+		'before_widget' => '<section id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</section>',
+		'before_title'  => '<h2 class="widget-title">',
+		'after_title'   => '</h2>',
+	) );
+	register_sidebar( array(
+		'name'          => esc_html__( 'Footer SideBar 4', 'imgd' ),
+		'id'            => 'footer-4-sidebar',
+		'description'   => esc_html__( 'Cuarto espacio de Footer.', 'imgd' ),
 		'before_widget' => '<section id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</section>',
 		'before_title'  => '<h2 class="widget-title">',

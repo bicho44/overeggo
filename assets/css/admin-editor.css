@@ -112,7 +112,7 @@ h6,
 .h5,
 .h6 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 1.2;
   color: #1a1a1a;
 }
@@ -1318,12 +1318,12 @@ fieldset[disabled] a.more-link {
   padding: .4rem;
   text-align: center;
   text-transform: uppercase;
-  font-weight: 300;
+  font-weight: 400;
   margin-bottom: 32px;
 }
 .membership-front-page .membership-title h2 {
   color: #fff;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 50px;
 }
 .membership-front-page .membership-title h2 small {

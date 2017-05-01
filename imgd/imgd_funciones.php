@@ -24,7 +24,8 @@ function load_external_jQuery() {
 	wp_enqueue_script('jquery');
 }
 
-
+/* Fonts */
+$fonts = '//fonts.googleapis.com/css?family=Raleway:400,400i,700,700i|Roboto:400,500';
 
 /**
  * Enqueue scripts and styles.
@@ -43,7 +44,7 @@ function imgdigital_scripts() {
         wp_enqueue_script( 'comment-reply' );
     }
 
-    wp_enqueue_style( 'imgd-google-fonts', '//fonts.googleapis.com/css?family=Raleway:400,700|Roboto:400,700', false ); 
+    wp_enqueue_style( 'imgd-google-fonts', $fonts, false ); 
 
 	wp_enqueue_style( 'imgdigital-style', get_template_directory_uri()."/assets/css/style.css");
 
@@ -74,7 +75,7 @@ function imgd_theme_add_editor_styles() {
 add_action( 'admin_init', 'imgd_theme_add_editor_styles' );
 
 function imgd_theme_add_font_editor_styles() {
-    $font_url = str_replace( ',', '%2C', '//fonts.googleapis.com/css?family=Raleway:400,700|Roboto:400,700');//fonts.googleapis.com/css?family=Open:400,700,900'' );
+    $font_url = str_replace( ',', '%2C', $fonts);//fonts.googleapis.com/css?family=Open:400,700,900'' );
     add_editor_style( $font_url );
 
     /*$font_url2 = str_replace( ',', '%2C', '//fonts.googleapis.com/css?family=Open+Sans:400,300,600' );

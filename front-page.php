@@ -25,6 +25,8 @@ $slider_size = $opciones_imgd['imgd_slider_size'];
  	the_content();
  endwhile; // End of the loop.
  ?>
+
+ <!-- Instructors -->
 <?php 
 	include( locate_template( 'template-parts/instructors/front-page.php' ) );
 ?>

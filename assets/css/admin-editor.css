@@ -1318,10 +1318,13 @@ fieldset[disabled] a.more-link {
   padding: .4rem;
   text-align: center;
   text-transform: uppercase;
+  font-weight: 300;
   margin-bottom: 32px;
 }
 .membership-front-page .membership-title h2 {
   color: #fff;
+  font-weight: 300;
+  font-size: 50px;
 }
 .membership-front-page .membership-title h2 small {
   color: #fff;

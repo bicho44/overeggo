@@ -28,7 +28,7 @@ $slider_size = $opciones_imgd['imgd_slider_size'];
 
  <!-- Instructors -->
 <?php 
-	include( locate_template( 'template-parts/instructors/front-page.php' ) );
+	//include( locate_template( 'template-parts/instructors/front-page.php' ) );
 ?>
 <!-- Membership -->
 <?php 

@@ -10031,7 +10031,7 @@ animation:         KEYFRAME-NAME 5s infinite;
   right: 0;
   left: 0;
   z-index: 500;
-  background-color: #1a1a1a;
+  background-color: #000;
 }
 .navbar-default,
 .navbar-fixed-top {
@@ -10042,7 +10042,7 @@ animation:         KEYFRAME-NAME 5s infinite;
   padding: 10px 5px 0 5px;
 }
 .navbar-fixed-top {
-  background-color: rgba(26, 26, 26, 0.95);
+  background-color: rgba(26, 26, 26, 0.85);
 }
 .navbar {
   margin-bottom: 0;
@@ -10159,7 +10159,7 @@ fieldset[disabled] a.more-link {
   margin-bottom: 16px;
 }
 .news-front-page .newstitle {
-  background-color: #9a9a9a;
+  background-color: #b3b3b3;
   color: #1288A7;
   padding: 1rem;
   text-align: center;
@@ -10168,6 +10168,12 @@ fieldset[disabled] a.more-link {
 }
 .news-front-page h2 {
   color: #b42555;
+}
+.news-front-page a {
+  color: #b42555;
+}
+.news-front-page a:hover {
+  color: #d6366c;
 }
 .membership-front-page {
   margin-bottom: 16px;

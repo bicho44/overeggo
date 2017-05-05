@@ -4704,7 +4704,7 @@ tbody.collapse.in {
   list-style: none;
   font-size: 14px;
   text-align: left;
-  background-color: #fff;
+  background-color: #1a1a1a;
   border: 1px solid #ccc;
   border: 1px solid rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -5660,7 +5660,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default {
-  background-color: #fff;
+  background-color: #1a1a1a;
   border-color: transparent;
 }
 .navbar-default .navbar-brand {
@@ -5686,7 +5686,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
   color: #fff;
-  background-color: #1288A7;
+  background-color: #b42555;
 }
 .navbar-default .navbar-nav > .disabled > a,
 .navbar-default .navbar-nav > .disabled > a:hover,
@@ -5711,7 +5711,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
-  background-color: #1288A7;
+  background-color: #b42555;
   color: #fff;
 }
 @media (max-width: 767px) {
@@ -5727,7 +5727,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
     color: #fff;
-    background-color: #1288A7;
+    background-color: #b42555;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a,
   .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover,
@@ -10042,7 +10042,7 @@ animation:         KEYFRAME-NAME 5s infinite;
   padding: 10px 5px 0 5px;
 }
 .navbar-fixed-top {
-  background-color: rgba(255, 255, 255, 0.95);
+  background-color: rgba(26, 26, 26, 0.95);
 }
 .navbar {
   margin-bottom: 0;
@@ -10166,8 +10166,8 @@ fieldset[disabled] a.more-link {
   text-transform: uppercase;
   margin-bottom: 32px;
 }
-.news-front-page .newstitle h2 {
-  color: #00586D;
+.news-front-page h2 {
+  color: #b42555;
 }
 .membership-front-page {
   margin-bottom: 16px;

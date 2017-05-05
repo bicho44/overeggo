@@ -20,7 +20,7 @@
 				the_post_thumbnail('full-cropped');
 			}
 		 ?>
-		 <div class="breadcrumb">	Home > <?php the_title( )?> </div>
+		 <div class="breadcrumb">	Home > <?php the_title( ); ?> </div>
 		<?php
 			the_content();
 

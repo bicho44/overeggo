@@ -30,5 +30,6 @@
         <?php
             shortentext(get_the_content(), 85);
         ?>
+        <p><a class="btn btn-primary" href="<?php the_permalink(); ?>"><?php _e('Read more...', 'imgd') ?></a></p>
     </header><!-- .entry-header -->
 </div><!-- Fin Thumbnail -->

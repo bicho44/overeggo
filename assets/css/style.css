@@ -10182,6 +10182,13 @@ fieldset[disabled] a.more-link {
 .news-front-page a:hover {
   color: #d6366c;
 }
+.news-front-page .btn-readmore {
+  background-color: #b42555;
+  color: #fff;
+}
+.news-front-page .btn-readmore a {
+  color: #fff;
+}
 .membership-front-page {
   margin-bottom: 16px;
 }

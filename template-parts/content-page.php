@@ -17,9 +17,10 @@
 	<div class="entry-content">
 		<?php
 			if (has_post_thumbnail()){
-				the_post_thumbnail('header-cropped');
+				the_post_thumbnail('full-cropped');
 			}
 		 ?>
+		 <div class="breadcrumb">	Home > <?php the_title( )?> </div>
 		<?php
 			the_content();
 

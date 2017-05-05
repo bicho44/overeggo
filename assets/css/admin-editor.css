@@ -1240,6 +1240,9 @@ a.btn-readmore.disabled,
 fieldset[disabled] a.btn-readmore {
   pointer-events: none;
 }
+.btn-readmore a {
+  color: #fff;
+}
 .site-header {
   padding-top: 10px;
   padding-bottom: 10px;

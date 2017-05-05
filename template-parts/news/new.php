@@ -30,6 +30,6 @@
         <?php
             shortentext(get_the_content(), 85);
         ?>
-        <p><a class="btn btn-readmore align-right" href="<?php the_permalink(); ?>"><?php _e('Read more...', 'imgd') ?></a></p>
+        <p><a class="btn btn-readmore alignright" href="<?php the_permalink(); ?>"><?php _e('Read more...', 'imgd') ?></a></p>
     </header><!-- .entry-header -->
 </div><!-- Fin Thumbnail -->
